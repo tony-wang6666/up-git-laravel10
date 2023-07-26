@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AdController;
+// use App\Http\Controllers\AdController;
+use App\Http\Controllers\mytest\CcController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +19,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/aa',[AdController::class,'aa']);
+// Route::get('/aa',[AdController::class,'aa']);
+Route::get('/cc',[CcController::class,'cc']);
