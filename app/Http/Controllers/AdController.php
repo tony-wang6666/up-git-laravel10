@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MemberController extends Controller
+class AdController extends Controller
 {
-    public function aa(Request $request){
+    public function aa(){
         return 'end';
     }
 }

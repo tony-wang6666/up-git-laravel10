@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MemberController;
+use App\Http\Controllers\AdController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/aa',[MemberController::class,'aa']);
+Route::get('/aa',[AdController::class,'aa']);
